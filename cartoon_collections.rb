@@ -18,6 +18,7 @@ end
 def find_the_cheese (array)
    cheese_types = ["cheddar", "gouda", "camembert"]
   if  array.find { |x| 
+    cheese_types
     puts yay 
   else 
     nil 
